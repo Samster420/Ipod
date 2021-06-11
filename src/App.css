@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* UI components of ipod */
+.box{
+  height:220px;
+  width:220px;
+  background-color: grey;
+  margin-left: 700px;
+  margin-top: 0px;
+  position:absolute;
+}
+
+#circle{
+  height:200px;
+  width:210px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-top:16px;
+  margin-left:5px;
+  margin-bottom: 5px;
+  background-color: white;
+  position: absolute;
+  
+
+}
+
+#smallCircle{
+  height:80px;
+  width: 80px;
+  border:1px solid black ;
+  border-radius: 50%;
+  margin-left: 65px;
+  margin-top: 60px;
+  position: absolute;
+  background-color: grey ;
+}
+
+.menu{
+  margin-top: 18px;
+}
+
+
+/* Main container div of screen component */
+#maincontainer{
+  width:218px;
+  height:300px;
+  border:1px solid black;
+  margin-left: 700px;
+  margin-bottom : 0;
+}
